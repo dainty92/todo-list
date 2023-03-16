@@ -74,11 +74,13 @@ form > button:hover {
 
 .ul {
     background-color: inherit;
+    margin-top: 30px;
 }
 
 ul {
 	text-align: left;
-	margin-top: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
@@ -91,7 +93,6 @@ ul li {
     position: relative;
     align-items: center;
     justify-content: center;
-    width: 90%;
 }
 
 ul li:nth-child(odd) {
@@ -106,6 +107,10 @@ ul li:hover {
 	background-color: #76CFE0;
 }
 
+li input {
+    width: 90%
+}
+
 li > button {
     position: absolute;
     right: 0;
@@ -114,7 +119,7 @@ li > button {
 	float: right;
 	color: #fff;
     padding: 5px 7px;
-    margin-top: -3px;
+    margin: -3px auto;
     cursor: pointer;
 }
 
@@ -123,7 +128,7 @@ li > button:hover {
 }
 
 li .edit {
-    margin-right: 50px;
+    margin-right: 43px;
 }
 
 li .delete {
