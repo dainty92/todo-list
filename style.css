@@ -91,6 +91,7 @@ ul li {
     position: relative;
     align-items: center;
     justify-content: center;
+    width: 90%;
 }
 
 ul li:nth-child(odd) {
