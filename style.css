@@ -16,7 +16,7 @@ body {
 }
 
 div {
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     background-color: #07A5BC;
     margin-top: 50px;
@@ -46,7 +46,7 @@ label {
 
 input {
 	border-radius: 5px;
-	width: 50%;
+	width: 70%;
 	padding: 10px;
 	border: 0;
     outline: 0;
@@ -69,6 +69,7 @@ form > button {
 
 form > button:hover {
     background-color: #027d93;
+    position: relative;
 }
 
 .ul {
@@ -78,8 +79,6 @@ form > button:hover {
 ul {
 	text-align: left;
 	margin-top: 30px;
-    align-items: center;
-    justify-content: center;
 }
 
 ul li {
@@ -89,12 +88,17 @@ ul li {
 	border-radius: 5px;
 	margin-bottom: 10px;
 	background: #4EB9CD;
-    max-width: 95%;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 ul li:nth-child(odd) {
     background: #7fb3b9;
+}
+
+ul li:nth-child(odd):hover {
+    background-color: #b1edf4;
 }
 
 ul li:hover {
@@ -102,6 +106,8 @@ ul li:hover {
 }
 
 li > button {
+    position: absolute;
+    right: 0;
 	background-color: #024d5b;
 	border: 2px solid #e5ebec;
 	float: right;
@@ -116,5 +122,9 @@ li > button:hover {
 }
 
 li .edit {
-    margin-left: 15px;
+    margin-right: 50px;
+}
+
+li .delete {
+    margin-right: 10px;
 }
